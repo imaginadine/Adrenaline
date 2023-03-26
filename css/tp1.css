@@ -1,0 +1,203 @@
+
+body{
+    background-color: #fff8e8ff ;
+}
+
+.txt{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo{
+    width: 12%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#titre{
+    width:20%;
+    margin-left:800px;
+    padding-top: 30px;
+    font-size:300%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.aligne{
+    display:inline-block;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ffffffff;
+    background-color: #d52941ff;
+    border-radius: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color:#fff8e8ff;
+}
+
+header{
+    background-color: #fcd581ff;
+}
+
+footer{
+    background-color:#990d35ff ;
+    text-align: center;
+}
+
+.ligne{
+    padding-right:100px;
+    padding-left:100px;
+}
+
+#gauche{
+    background-color: #d52941ff;
+    color:#fff8e8ff;
+    float: left;
+    padding-right: 80px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    border-style: solid;
+    border-color:#fcd581ff;
+    position:fixed;
+}
+
+#gauche a {
+    text-decoration: none;
+    color: #ffffffff;
+}
+
+a:hover{
+    text-shadow: 2px 2px grey;
+    font-weight: bold ;
+}
+
+.principal{
+    margin-left: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logop{
+    width:35%;
+    margin-left:250px;
+}
+
+img.imgAchat{
+    width: 250px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding-right:50px;
+    padding-left:50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#bienvenue{
+    margin-left:150px;
+    margin-bottom:50px;
+    margin-top:50px;
+}
+
+#description{
+    margin:100px;
+}
+
+.nbQt{
+    display: inline-block;
+}
+
+.bmp{
+    margin : 10px;
+    padding-right:10px;
+    padding-left:10px;
+    font-weight: bold;
+}
+
+.bmp:disabled{
+    cursor:not-allowed;
+}
+
+button{
+    background-color: #fcd581ff;
+    border-radius: 5px;
+    padding: 5px;
+    cursor:pointer;
+    font-size: 16px;
+}
+
+.boutonD {
+    background-color: #d52941ff;
+    border-radius: 5px;
+    padding: 5px;
+    cursor:pointer;
+    font-size: 16px;
+}
+
+.bstock{
+    margin:30px;
+    padding: 20px;
+}
+
+#envoi{
+    background-color: #fcd581ff;
+    border-radius: 5px;
+    padding: 5px;
+    cursor:pointer;
+    font-size: 16px;
+}
+
+.demandecontact{
+    border-style: solid;
+    margin-right: 400px;
+    padding:20px;
+    border-radius:3px;
+}
+
+.champsForm {
+    margin-left : 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header #connexion {
+    float: right;
+    display:inline;
+    margin-right : 20px;
+}
+
+#panier {
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: black;
+    background-color: #fff8e8ff;
+    color: #990d35ff;
+    padding:6px;
+    text-align: center;
+}
+
+#panier:hover {
+    text-shadow: none;
+    font-weight: bold ;
+}
+
+.objPanier{
+    display: inline-block;
+    width: 250px;
+}
+
+.grand{
+    display: block;
+    margin-bottom:400px;
+}
